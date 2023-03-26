@@ -1,4 +1,5 @@
 import React from 'react'
+import Drawer from './Drawer'
 
 export default function Header() {
     return (
@@ -12,7 +13,7 @@ export default function Header() {
             </div>
             <ul className='headerRight'>
                 <li className='lione'>
-                    <img src='/img/card.svg' />
+                    <img src='/img/card.svg' alt='Cart'/>
                     <span>1205 руб.</span>
                 </li>
                 <li>

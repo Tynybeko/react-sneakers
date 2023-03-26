@@ -1,9 +1,8 @@
 import React from 'react'
 
-export default function Drawer() {
+ function Drawer() {
     return (
         <div style={{ display: 'none' }} className="overlay">
-
             <div className="drawer">
                 <h2>Корзина <img src="/img/btn_remote.svg" alt="Remote" /></h2>
                 <div className="items">
@@ -94,3 +93,5 @@ export default function Drawer() {
         </div>
     )
 }
+
+export default Drawer
